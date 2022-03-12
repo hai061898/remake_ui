@@ -1,7 +1,10 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:re_ui/coffee/ui/screens/splash_coffee.dart';
+import 'package:re_ui/glass/ui/card_glass.dart';
+
+// import 'package:re_ui/coffee/ui/screens/splash_coffee.dart';
+
 
 void main() {
   runApp(
@@ -28,7 +31,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const SplashScreenCoffee(),
+      home: const CardGlass(),
     );
   }
 }
