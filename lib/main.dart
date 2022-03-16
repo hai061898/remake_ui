@@ -1,7 +1,8 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:re_ui/chart/expenses/ui/screens/expenses.dart';
+// import 'package:re_ui/chart/expenses/ui/screens/expenses.dart';
+import 'package:re_ui/error/error404_2.dart';
 // import 'package:re_ui/error/no_connection.dart';
 // import 'package:re_ui/glass/ui/card_glass.dart';
 // import 'package:re_ui/responsive/travel_dashboard/ui/screens/dashboard/main_drt.dart';
@@ -29,13 +30,13 @@ class MyApp extends StatelessWidget {
       useInheritedMediaQuery: true,
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
-      title: 'UI',
+      title: 'UI DOC',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const ExpensesPage(),
+      home: const Error404Screen(),
     );
   }
 }
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget {
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
 //       debugShowCheckedModeBanner: false,
-//       title: 'UI',
+//       title: 'UI DOC',
 //       theme: ThemeData(
 //         canvasColor: kSecondayColor,
 //       ),
