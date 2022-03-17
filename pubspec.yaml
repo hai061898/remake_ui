@@ -43,6 +43,8 @@ dependencies:
   fl_chart: ^0.46.0
   iconsax: ^0.0.8
   animate_do: ^2.1.0
+  carousel_slider: ^4.0.0
+  flutter_carousel_slider: ^1.0.8
 
 dev_dependencies:
   flutter_test:

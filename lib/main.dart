@@ -1,8 +1,9 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:re_ui/carousel_slider/example_simple_slider/slider_simple.dart';
 // import 'package:re_ui/chart/expenses/ui/screens/expenses.dart';
-import 'package:re_ui/error/error404_2.dart';
+// import 'package:re_ui/error/error404_2.dart';
 // import 'package:re_ui/error/no_connection.dart';
 // import 'package:re_ui/glass/ui/card_glass.dart';
 // import 'package:re_ui/responsive/travel_dashboard/ui/screens/dashboard/main_drt.dart';
@@ -36,12 +37,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const Error404Screen(),
+      home: const CarouselSliderExample(),
     );
   }
 }
 
-
+//------------------------Run Web -----------------------------/
 // void main() {
 //   runApp(const MyApp());
 // }
