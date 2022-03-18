@@ -1,7 +1,8 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:re_ui/carousel_slider/example_simple_slider/slider_simple.dart';
+// import 'package:re_ui/carousel_slider/example_simple_slider/slider_simple.dart';
+import 'package:re_ui/liquid_swipe/planet/plant_ls.dart';
 // import 'package:re_ui/chart/expenses/ui/screens/expenses.dart';
 // import 'package:re_ui/error/error404_2.dart';
 // import 'package:re_ui/error/no_connection.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const CarouselSliderExample(),
+      home: const PlanetLS(),
     );
   }
 }

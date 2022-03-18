@@ -45,6 +45,7 @@ dependencies:
   animate_do: ^2.1.0
   carousel_slider: ^4.0.0
   flutter_carousel_slider: ^1.0.8
+  liquid_swipe: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +78,7 @@ flutter:
     - assets/json/
     - assets/logo/
     - assets/error/
+    - assets/planet/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
