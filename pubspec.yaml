@@ -46,6 +46,8 @@ dependencies:
   carousel_slider: ^4.0.0
   flutter_carousel_slider: ^1.0.8
   liquid_swipe: ^2.1.1
+  timeline_tile: ^2.0.0
+  weather_icons: ^3.0.0
 
 dev_dependencies:
   flutter_test:
