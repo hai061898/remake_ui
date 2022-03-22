@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:re_ui/timeline/components/containerhead.dart';
-import 'package:re_ui/timeline/components/icon_indicator.dart';
-import 'package:re_ui/timeline/components/sun.dart';
+import 'package:re_ui/timeline/weather_timeline/components/containerhead.dart';
+import 'package:re_ui/timeline/weather_timeline/components/icon_indicator.dart';
+import 'package:re_ui/timeline/weather_timeline/components/sun.dart';
+
 import 'package:timeline_tile/timeline_tile.dart';
 import 'package:weather_icons/weather_icons.dart';
 
