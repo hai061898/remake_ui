@@ -1,7 +1,9 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:re_ui/shimmer/shimmer_ex/shimmer_ex.dart';
+import 'package:re_ui/audio/music_player/home_music.dart';
+
+// import 'package:re_ui/shimmer/shimmer_ex/shimmer_ex.dart';
 // import 'package:re_ui/carousel_slider/example_simple_slider/slider_simple.dart';
 // import 'package:re_ui/liquid_swipe/planet/plant_ls.dart';
 // import 'package:re_ui/timeline/weather_timeline/weather_timeline.dart';
@@ -40,7 +42,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const ShimmerEX(),
+      home: const HomeMusicPage(),
     );
   }
 }
@@ -62,7 +64,7 @@ class MyApp extends StatelessWidget {
 //       theme: ThemeData(
 //         canvasColor: kSecondayColor,
 //       ),
-//       home: const MainDRT(),
+//       home: const HomeMusicPage(),
 //     );
 //   }
 // }
