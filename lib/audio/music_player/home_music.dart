@@ -1,5 +1,7 @@
 
 
+// ignore_for_file: unnecessary_null_comparison, avoid_print
+
 import 'package:audio_manager/audio_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
