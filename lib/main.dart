@@ -1,7 +1,8 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:re_ui/auth/auth1/screens/login_page.dart';
+// import 'package:re_ui/auth/auth1/screens/login_page.dart';
+import 'package:re_ui/onboarding/onboarding_lottie/screens/star_night.dart';
 // import 'package:re_ui/audio/music_player/home_music.dart';
 // import 'package:re_ui/video/video_player/screens/home_video_play.dart';
 
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const LogInPage(),
+      home: const StarNight(),
     );
   }
 }
