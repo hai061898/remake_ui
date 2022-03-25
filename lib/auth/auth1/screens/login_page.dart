@@ -5,7 +5,7 @@ import 'package:re_ui/auth/auth1/widgets/header_login.dart';
 import 'package:re_ui/auth/auth1/widgets/text_c.dart';
 import 'package:re_ui/auth/auth1/widgets/text_field_c.dart';
 
-import 'sinup_page.dart';
+import 'signup_page.dart';
 
 class LogInPage extends StatelessWidget {
   const LogInPage({Key? key}) : super(key: key);
