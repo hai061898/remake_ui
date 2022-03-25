@@ -90,6 +90,7 @@ flutter:
     - assets/planet/
     - assets/song/
     - assets/video/
+    - assets/myvideo/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
