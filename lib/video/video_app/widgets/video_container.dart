@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:re_ui/video/video_player/screens/video_page.dart';
+import 'package:re_ui/video/video_app/screens/video_page.dart';
+
 
 class BuildContainer extends StatelessWidget {
   final String? title;

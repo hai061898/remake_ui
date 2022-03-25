@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:re_ui/video/video_player/widgets/card_video.dart';
-import 'package:re_ui/video/video_player/widgets/video_container.dart';
+import 'package:re_ui/video/video_app/widgets/card_video.dart';
+import 'package:re_ui/video/video_app/widgets/video_container.dart';
+
 
 class HomeVideoPlay extends StatefulWidget {
   const HomeVideoPlay({Key? key}) : super(key: key);
