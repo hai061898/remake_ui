@@ -18,6 +18,7 @@ class _ShimmerEXState extends State<ShimmerEX> {
   void initState() {
     super.initState();
 
+    // ignore: unused_local_variable
     Timer timer = Timer(const Duration(seconds: 10), () {
       setState(() {
         isDataFetched = true;
