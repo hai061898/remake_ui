@@ -1,7 +1,9 @@
-import 'package:device_preview/device_preview.dart';
-import 'package:flutter/foundation.dart';
+// import 'package:device_preview/device_preview.dart';
+// import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:re_ui/school/school1_it_error/ui/screen/welcome_page.dart';
+import 'package:re_ui/audio/music_app2/music_page.dart';
+
+// import 'package:re_ui/school/school1_it_error/ui/screen/welcome_page.dart';
 // import 'package:re_ui/video/backgound_video/login_bv_page.dart';
 
 
@@ -26,39 +28,13 @@ import 'package:re_ui/school/school1_it_error/ui/screen/welcome_page.dart';
 // import 'package:re_ui/coffee/ui/screens/splash_coffee.dart';
 
 
-void main() {
-  runApp(
-    DevicePreview(
-      enabled: !kReleaseMode,
-      builder: (context) => const MyApp(), // Wrap your app
-    ),
-  );
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      useInheritedMediaQuery: true,
-      locale: DevicePreview.locale(context),
-      builder: DevicePreview.appBuilder,
-      title: 'UI DOC',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: const WelcomeScreen(),
-    );
-  }
-}
-
-//------------------------Run Web -----------------------------/
 // void main() {
-//   runApp(const MyApp());
+//   runApp(
+//     DevicePreview(
+//       enabled: !kReleaseMode,
+//       builder: (context) => const MyApp(), // Wrap your app
+//     ),
+//   );
 // }
 
 // class MyApp extends StatelessWidget {
@@ -68,12 +44,38 @@ class MyApp extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
-//       debugShowCheckedModeBanner: false,
+//       useInheritedMediaQuery: true,
+//       locale: DevicePreview.locale(context),
+//       builder: DevicePreview.appBuilder,
 //       title: 'UI DOC',
+//       debugShowCheckedModeBanner: false,
 //       theme: ThemeData(
-//         canvasColor: Colors.black,
+//         primarySwatch: Colors.blue,
+//         visualDensity: VisualDensity.adaptivePlatformDensity,
 //       ),
-//       home: const HomeVideoPlay(),
+//       home: const MusicApp(),
 //     );
 //   }
 // }
+
+//------------------------Run Web -----------------------------/
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'UI DOC',
+      theme: ThemeData(
+        canvasColor: Colors.black,
+      ),
+      home: const MusicApp(),
+    );
+  }
+}
