@@ -2,6 +2,7 @@
 // import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:re_ui/audio/music_app2/music_page.dart';
+import 'package:re_ui/parallax/parallax1/parallax_page.dart';
 
 // import 'package:re_ui/school/school1_it_error/ui/screen/welcome_page.dart';
 // import 'package:re_ui/video/backgound_video/login_bv_page.dart';
@@ -75,7 +76,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         canvasColor: Colors.black,
       ),
-      home: const MusicApp(),
+      home: const ParallaxPage(),
     );
   }
 }
