@@ -41,7 +41,7 @@ class _ParallaxPageState extends State<ParallaxPage> {
           }
 
           //true
-          return false;
+          return true;
         },
         child: Stack(
           children: [
